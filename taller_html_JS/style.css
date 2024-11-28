@@ -1,0 +1,122 @@
+* {
+  font-family: "Geist Mono", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.flex-item {
+  display: inline-block;
+  background-color: skyblue;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.nueva-seccion {
+  background-color: #f0f8ff;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+#nueva-seccion h2 {
+  color: #2c3e50;
+  font-size: 24px;
+}
+
+#nueva-seccion p {
+  color: #34495e;
+  font-size: 16px;
+}
+
+form {
+  background-color: #eaf2f8;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+form label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+#contador {
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+#btn-clics {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+#btn-clics:hover {
+  background-color: #2980b9;
+}
+
+.enlace {
+  text-decoration: none;
+  color: #3498db;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.enlace:hover {
+  color: #2c3e50;
+  text-decoration: underline;
+}
+
+.enlace:visited {
+  color: #9b59b6;
+}
+
+
+#lista-titulo {
+  font-size: 22px;
+  color: #2c3e50;
+  margin-top: 30px;
+}
+
+.imagen {
+  width: 50%;
+  height: auto;
+  border-radius: 8px;
+}

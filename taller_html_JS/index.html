@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display Block</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="block">
+    <div class="flex-container">
+        <div class="flex-item">A</div>
+        <div class="flex-item">B</div>
+        <div class="flex-item">C</div>
+        
+        <div class="flex-item">A</div>
+        <div class="flex-item">B</div>
+        <div class="flex-item">C</div>
+
+        <div class="flex-item">A</div>
+        <div class="flex-item">B</div>
+        <div class="flex-item">C</div>
+
+        <img src="Logo y Facultad 2.png" alt="Descripción de la imagen" class="imagen">
+
+
+        <section id="nueva-seccion" class="nueva-seccion">
+            <h2>Talleres de Semana de Ingenieria</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae magnam dolorum expedita libero in quidem pariatur illum.  Perspiciatis commodi numquam earum facilis ut, repellat, tenetur reprehenderit unde quam architecto obcaecati!</p>
+        </section>
+
+        <h3 id="lista-titulo">Talleres:</h3>
+        <ol id="lista-talleres">
+            <li>Taller GitHub</li>
+            <li>Taller Figma</li>
+            <li>Taller HTML y JS</li>
+            <li>Taller Trello</li>
+            <li>Taller Python</li>
+
+        </ol>
+        
+        <a href="https://github.com/JulianLeywin" class="enlace">Repositorio GitHub Angel Julian</a>
+        
+        <section id="formulario" class="nueva-seccion">
+            <h2>Formulario de Contacto</h2>
+            <form id="contact-form" onsubmit="">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+        <section id="contador">
+            <h3>Contador de Clics</h3>
+            <p>Has hecho <span id="contador-clics">0</span> clics.</p>
+            <button id="btn-clics" onclick="incrementarContador()">Haz clic aquí</button>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
